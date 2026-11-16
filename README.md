@@ -18,15 +18,28 @@
 ## 获取代码与模型
 
 ```bash
+git lfs install
 git clone https://github.com/HF-biu/shengteng-deepfake-detect.git
 cd shengteng-deepfake-detect
+git lfs pull
 ```
 
-Git 仓库包含源码、配置、测试及文档。模型权重、ONNX / OM 文件、业务图片与运行结果
-作为独立部署资产管理，不随源码上传。请从项目维护方获取模型，并按
-[模型资产清单](docs/MODEL_ASSETS.json)中的相对路径放置；清单提供文件大小和 SHA-256 校验值。
+请先安装 [Git LFS](https://git-lfs.com/)。Git 仓库包含源码、配置、测试及文档，
+模型权重和 ONNX / OM 文件通过 Git LFS 管理，共 29 个文件，约 1.18 GiB。
+业务图片与运行结果不随仓库上传。
+[模型资产清单](docs/MODEL_ASSETS.json)提供模型相对路径、文件大小和 SHA-256 校验值。
+使用 Git 克隆并执行 `git lfs pull` 可获得真实模型文件；仅下载源码 ZIP 不能保证取得 LFS 模型内容。
 默认推理需要根目录的 `FaceDetector.om`、`pscc.om`、`refine_128.om`；重新编译还需
 `FaceDetector.onnx`、`pscc_net.onnx`、`cfl_128.onnx`。可选热力图需要 `weights/refine_cfl.pth`。
+
+已有源码但只需推理模型时，可按需下载：
+
+```bash
+git lfs pull --include="FaceDetector.om,pscc.om,refine_128.om" --exclude=""
+```
+
+LFS 存储和下载流量计入仓库所有者的账户额度，具体以
+[GitHub LFS 计费说明](https://docs.github.com/en/billing/concepts/product-billing/git-lfs)为准。
 
 历史业务脚本 `ais_test.py`、`fetch_and_download.py`、`run.sh` 使用 `MEDIA_API_URL`
 环境变量指定数据接口地址，运行前需配置；核心昇腾推理入口不依赖该业务接口。

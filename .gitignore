@@ -7,15 +7,8 @@ venv/
 .env
 .env.*
 
-# Model assets are distributed separately; see docs/MODEL_ASSETS.json.
-*.pth
-*.pt
-*.onnx
-*.om
-*.ckpt
+# Model assets are tracked with Git LFS; see .gitattributes.
 *.tar
-weights/
-good_ckpt/
 
 # CANN build products and local inference data
 kernel_meta/

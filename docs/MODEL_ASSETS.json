@@ -1,5 +1,5 @@
 {
-  "description": "Model assets distributed separately from the source repository.",
+  "description": "Model assets tracked with Git LFS. Run git lfs pull after cloning.",
   "files": [
     {
       "path": "cfl_128.onnx",
