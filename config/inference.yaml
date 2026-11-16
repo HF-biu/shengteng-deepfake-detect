@@ -1,0 +1,28 @@
+face_detection:
+  ignore_threshold: 0.3
+  top_k: 5000
+  nms_threshold: 0.4
+  keep_top_k: 750
+  face_threshold: 0.9
+  limit_size: 112
+
+# Relative model paths resolve from the project root.
+ascend:
+  device_id: 0
+  enable_cam: false  # Optional CPU EigenCAM; requires PyTorch/timm/grad-cam.
+  models:
+    retina: FaceDetector.om
+    pscc: pscc.om
+    deepfake: refine_128.om
+
+batch_size:
+  retina: 64
+  pscc: 64
+  deepfake: 128
+
+data_path: ./train_data/0real
+
+deepfake_threshold: 0.005
+
+
+deepfake_weights: ./weights/refine_cfl.pth     # after custom training, change it into './weights/new_ckpt.pth'

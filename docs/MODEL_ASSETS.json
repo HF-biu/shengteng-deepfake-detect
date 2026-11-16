@@ -1,0 +1,150 @@
+{
+  "description": "Model assets distributed separately from the source repository.",
+  "files": [
+    {
+      "path": "cfl_128.onnx",
+      "bytes": 86739388,
+      "sha256": "a00df09d4b653abe1ffec30e12853fa1c8d2fc521f51954489c91654a7cb2e33"
+    },
+    {
+      "path": "FaceDetector.om",
+      "bytes": 55583289,
+      "sha256": "d4bd51d2ae19ec56371de349df7dd85f8a46551da8190beb07c26084a8484dad"
+    },
+    {
+      "path": "FaceDetector.onnx",
+      "bytes": 109080191,
+      "sha256": "a35791ffb89cff394a63ce28edf1aea09de1e299dc4ee4c9952a07de38265001"
+    },
+    {
+      "path": "good_ckpt/20240716/DetectionHead_checkpoint/DetectionHead_1_test.pth",
+      "bytes": 33375859,
+      "sha256": "f0ca88e955427b0816800201063945e90208e0100818f7dd463ef42bd695a34e"
+    },
+    {
+      "path": "good_ckpt/20240716/DetectionHead_checkpoint/DetectionHead_21_test.pth",
+      "bytes": 33375859,
+      "sha256": "0e265e36b1077f20d75d983c53bdf4bdf82cab98e757740b388ef3622042ed71"
+    },
+    {
+      "path": "good_ckpt/20240716/DetectionHead_checkpoint/DetectionHead_41_test.pth",
+      "bytes": 33375859,
+      "sha256": "f09a2c7f36ceedd27c2a62a26f5135af855cc0ae176f4d4ed227af501b9cb080"
+    },
+    {
+      "path": "good_ckpt/20240716/DetectionHead_checkpoint/DetectionHead_61_test.pth",
+      "bytes": 33375859,
+      "sha256": "117bf6e3bbf743ae4312a376fe00318f3ba0b7c6b088c65e3748137559446167"
+    },
+    {
+      "path": "good_ckpt/20240716/DetectionHead_checkpoint/DetectionHead_81_test.pth",
+      "bytes": 33375859,
+      "sha256": "a56cf957a8ffa4d99f17b139dbd703d44e6044bec49c7e48281f607a7cf85b7f"
+    },
+    {
+      "path": "good_ckpt/20240716/DetectionHead_checkpoint/test_DetectionHead.pth",
+      "bytes": 3739969,
+      "sha256": "ca83b9d41fe56c633ee6721d96b42e97a66b0d6fd58224f38e0aba0e3a1d9954"
+    },
+    {
+      "path": "good_ckpt/20240716/HRNet_checkpoint/HRNet_1_test.pth",
+      "bytes": 37942071,
+      "sha256": "a35f702fbb9f1400e0274e0dc1058c641fb3442960122d5f2d3cb8c96f4d72b6"
+    },
+    {
+      "path": "good_ckpt/20240716/HRNet_checkpoint/HRNet_21_test.pth",
+      "bytes": 37942071,
+      "sha256": "c40144e57b3eb2c27e01a88fceceed557b6c86c69d8c1959b4b3d2aebdab1edf"
+    },
+    {
+      "path": "good_ckpt/20240716/HRNet_checkpoint/HRNet_41_test.pth",
+      "bytes": 37942071,
+      "sha256": "70036ddabc0c8d166a54292b3bc695aa3ee4bd34eb2193ba449a18a19766d1ab"
+    },
+    {
+      "path": "good_ckpt/20240716/HRNet_checkpoint/HRNet_61_test.pth",
+      "bytes": 37942071,
+      "sha256": "be97eb1de5ec3dad6e87868a0f4981f97a460d11dcdd7c2d2a6a33aaa877490a"
+    },
+    {
+      "path": "good_ckpt/20240716/HRNet_checkpoint/HRNet_81_test.pth",
+      "bytes": 37942071,
+      "sha256": "ddcfa33a8d7847edb82cd19e9722ed77747e27c0dd26a578fd54aa89f22f57b6"
+    },
+    {
+      "path": "good_ckpt/20240716/HRNet_checkpoint/test_HRNet.pth",
+      "bytes": 8305545,
+      "sha256": "a2bac88baee2dedaa480730f8c851b732529b71bcaf245b264940c0d3e943cf3"
+    },
+    {
+      "path": "good_ckpt/20240716/NLCDetection_checkpoint/NLCDetection_1_test.pth",
+      "bytes": 32536627,
+      "sha256": "b848c84f0af3f8fea00883f532726649fe755e17fe084d5ea03d45ffde4e706a"
+    },
+    {
+      "path": "good_ckpt/20240716/NLCDetection_checkpoint/NLCDetection_21_test.pth",
+      "bytes": 32536627,
+      "sha256": "30ed01364ff460abe1b79c5d44918df02b4f056b4d24f3ba4e92a58c40215e54"
+    },
+    {
+      "path": "good_ckpt/20240716/NLCDetection_checkpoint/NLCDetection_41_test.pth",
+      "bytes": 32536627,
+      "sha256": "58b56549ebafdb9766d413af5f906a25cba701ba6b311c3008acde87d251ff5f"
+    },
+    {
+      "path": "good_ckpt/20240716/NLCDetection_checkpoint/NLCDetection_61_test.pth",
+      "bytes": 32536627,
+      "sha256": "b3c9fe0ef28465374a589ac98b50e54a708a7c3484fd1a96cdf8f278a13cc688"
+    },
+    {
+      "path": "good_ckpt/20240716/NLCDetection_checkpoint/NLCDetection_81_test.pth",
+      "bytes": 32536627,
+      "sha256": "87606d15b8d1ce35d909996b2229f5023c0948877bc39cc20db395581c74e5dc"
+    },
+    {
+      "path": "good_ckpt/20240716/NLCDetection_checkpoint/test_NLCDetection.pth",
+      "bytes": 2900709,
+      "sha256": "81299e805ee2201f8b655f3af7bf97a61683c4efb04fed4fff96042501fba99a"
+    },
+    {
+      "path": "models/hrnet_w18_small_v2.pth",
+      "bytes": 16012341,
+      "sha256": "06924c741ea8c076a569d5e164aa628910a72020800e4a4945e8b40b241ce5cb"
+    },
+    {
+      "path": "pscc.om",
+      "bytes": 10126484,
+      "sha256": "7d41ceff06184d2cb926f3af74468446c80cdf64cbc162c5566b1517640b4b2f"
+    },
+    {
+      "path": "pscc_net.onnx",
+      "bytes": 14703375,
+      "sha256": "9ff1dcb2dcdab773f64dd2be139b6e5f85daf5e1265c034a9d3716400e024b70"
+    },
+    {
+      "path": "refine_128.om",
+      "bytes": 46948590,
+      "sha256": "e408a62a86141f98d91b1d5439fb15d12daab2c3ec1dcb8731730e0066f4af47"
+    },
+    {
+      "path": "refine_128.onnx",
+      "bytes": 86705062,
+      "sha256": "fd7d32f24870712e6dccf5791ced761c2881d9319130feb8a803c0c3f80b3138"
+    },
+    {
+      "path": "refine_128_v1.om",
+      "bytes": 46913298,
+      "sha256": "cf285a04ae5fdb2df48d15565b06bbd2cbe68b920a5c81748cd315dec006d176"
+    },
+    {
+      "path": "weights/ckpt_best.pth",
+      "bytes": 143523753,
+      "sha256": "b60031b73971c33e6a348e4a54a16c9c46382621d80fe463c5e65e723dca0444"
+    },
+    {
+      "path": "weights/refine_cfl.pth",
+      "bytes": 113723361,
+      "sha256": "d30cdb44f865750bc26bf5790bbb1c5e0353aa1695ef570d459317e485731acc"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Core OM application dependencies. CANN/ais_bench/aclruntime are installed separately.
+numpy>=1.21,<2
+opencv-python-headless>=4.5,<4.11
+Pillow>=9,<11
+scikit-image>=0.19,<0.23
+PyYAML>=6,<7

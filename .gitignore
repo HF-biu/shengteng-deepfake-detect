@@ -1,0 +1,45 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Model assets are distributed separately; see docs/MODEL_ASSETS.json.
+*.pth
+*.pt
+*.onnx
+*.om
+*.ckpt
+*.tar
+weights/
+good_ckpt/
+
+# CANN build products and local inference data
+kernel_meta/
+build/
+wheels/
+results/
+pic1/
+pic2/
+pic3/
+train_data/
+ps_train/
+pre_data/
+ckpt/
+debug/
+mask/
+temp/
+output.json
+fusion_result.json
+ge_check_op.json
+*.log
+*.out
+
+# Local editor / OS files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

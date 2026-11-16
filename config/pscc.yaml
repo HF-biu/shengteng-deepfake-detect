@@ -1,0 +1,14 @@
+# pscc_args:
+path: './ps_train'
+num_epochs: 80
+lr_strategy: [2.0e-4, 1.0e-4, 5.0e-5, 2.5e-5, 1.25e-5]
+learning_rate: 2.0e-4
+learning_step: 5
+lr_decay_step: 16
+crop_size: [256, 256]
+val_num: 50
+save_tag: False
+train_bs: 4
+val_bs: 2
+train_num: 100
+train_ratio: [0.25, 0.75]

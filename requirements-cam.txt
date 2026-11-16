@@ -1,0 +1,4 @@
+-r requirements.txt
+# Optional CPU heatmaps only; install a mutually compatible torch/torchvision pair first.
+timm==0.6.13
+grad-cam>=1.4,<1.6
